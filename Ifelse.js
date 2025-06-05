@@ -143,3 +143,83 @@ if(shirtPrice > 1000 && hasKuppon === true){
 }else{
     console.log("Full Payment Korte Hobe!");
 }
+
+
+// 001
+const price = 4500;
+
+if(price >= 3000){
+    const discount = price / 100 * 5;
+    const pay = price - discount;
+    console.log(pay);
+}else if (price >= 6000){
+    const discount = price / 100 * 15;
+    const pay = price - discount;
+    console.log(pay);
+}else{
+    console.log(price);
+}
+
+//002
+
+const isAge = 45;
+
+if(isAge < 12){
+    console.log("Free food for Child!");
+}else if (isAge > 60){
+    console.log("50% discount for senior citizen!");
+}else{
+    console.log("Full Payment!");
+}
+
+//003
+const balance = 6000;
+
+if(balance < 5000){
+    console.log("Bindas Life Chill kor!");
+}else if(balance < 1000){
+    console.log("Deposit kor!");
+}else{
+    console.log("You are rich , Marry me!");
+}
+
+
+//004
+const examMarks = 60;
+if(examMarks < 50){
+    console.log("Fail!");
+}else if(examMarks > 50){
+    console.log("Pass");
+}else{
+    console.log("A+");
+}
+
+//005
+const bookPages = 300;
+if(bookPages < 100){
+    console.log("small book");
+}else if(bookPages > 500){
+    console.log("heart-attack size book");
+}else{
+    console.log("Mid-size book.");
+}
+
+//006
+const Temp = -6;
+if(Temp < 0){
+    console.log("Ice");
+}else if (Temp > 20){
+    console.log("Hot hot");
+}else{
+    console.log("Cool cool");
+}
+
+//007
+const level = 65;
+if(level < 10){
+    console.log("novice");
+}else if(level > 50){
+    console.log("Pro Gamer");
+}else{
+    console.log("Expert");
+}
