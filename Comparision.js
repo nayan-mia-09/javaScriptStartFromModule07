@@ -85,3 +85,53 @@ const imReadsBook = true;
 const friendReadsBook = false;
 
 console.log(imReadsBook === friendReadsBook);
+
+// 01
+const myMoney = 50;
+const friendsMoney = "50";
+
+console.log(myMoney == friendsMoney); // true
+console.log(myMoney === friendsMoney); // false
+
+// 02
+console.log("JavaScript" == 'JavaScript'); // true
+console.log("JavaScript" === 'JavaScript'); // true
+
+// 03
+// == (loose equality):This compares two values after type coercion. 
+// JavaScript converts the string "25" to the number 25, then compares.
+// So 25 == "25" → 25 == 25 → true
+
+console.log(25 == "25"); 
+
+//=== (strict equality):
+//This compares both the value and the type.
+//25 is a number, "25" is a string, so the types are different.
+//So 25 === "25" → false
+
+console.log(25 === "25");
+
+// 04 
+console.log("apple" == "apple"); // true
+console.log("apple" === "apple"); // true
+
+// 05
+console.log("Test" == "test"); // false
+console.log("test" === "Test"); // false 
+
+// 06
+const variableX = 15;
+const variableY = 20;
+
+console.log(variableX != variableY);
+console.log(variableX !== variableY);
+
+// 07
+const variableA = hello;
+const variableB = "Hello";
+
+console.log(variableA == variableB); // Variable not define
+console.log(variableA === variableB);  // Variable not define
+
+
+
