@@ -36,3 +36,52 @@ const myResult = 45;
 const friendResult = 97;
 
 console.log(friendResult < myResult);
+
+
+// 1
+const myAge = 15;
+const brotherAge = 10;
+
+console.log(myAge <= brotherAge);
+
+// 2
+const passMark = 33;
+const myMark = 45;
+
+console.log(myMark > passMark);
+
+// 3
+const JamburaPrice = 30;
+const KodbellPrice = 20;
+
+console.log(JamburaPrice < KodbellPrice);
+
+// 4
+const imRead = 10;
+const friendRead = 10;
+
+console.log(imRead === friendRead);
+
+// 5
+const myBuiscits = 15;
+const friendBuiscits = 20;
+
+console.log(myBuiscits < friendBuiscits);
+
+// 6
+const realGoal = 2;
+const barcaGoal = 3;
+
+console.log(realGoal < barcaGoal);
+
+// 7 
+const myName = "Rahim";
+const friendName = "Karim";
+
+console.log(myName === friendName);
+
+// 8 
+const imReadsBook = true;
+const friendReadsBook = false;
+
+console.log(imReadsBook === friendReadsBook);
