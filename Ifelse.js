@@ -223,3 +223,71 @@ if(level < 10){
 }else{
     console.log("Expert");
 }
+
+
+// 1
+const invitation = false;
+const hasMoney = 2000
+if(invitation === true){
+    console.log("Join Friends Party!");
+    if(hasMoney > 1000){
+        console.log("Join With Gift for friends!");
+    }else{
+        console.log("Khali hate jabo!");
+    }
+}else{
+    console.log("Remove him my friend list!");
+}
+
+// 2
+const comeGuest = true;
+const wantEatTea = true;
+const wantEatBuiscits = false;
+
+if(comeGuest === true){
+   if(wantEatTea === true){
+    if(wantEatBuiscits === false){
+        console.log("Sudhu cha Ready");
+    }
+   }else{
+console.log("Boshe Boshe Star Jolsha Dekho!");    
+}
+}
+
+// 3
+const userActive = true;
+const premiumUser = true;
+if(userActive === true){
+   if(premiumUser === true){
+    console.log("Enjoy premium feature!");
+   }else{
+    console.log("Free Version Dekho!");
+   }
+}
+
+// 4
+
+const hasFoodOnFrez = true;
+const foodAppWorking = false;
+
+if(hasFoodOnFrez === true){
+    console.log("Khabar Gorom korbo!");
+}else{
+    if(foodAppWorking === true){
+        console.log("Online Order korbo!");
+    }else{
+        console.log("Ajke ami roja!");
+    }
+}
+
+// 5
+
+const guestMember = 150;
+const comeWithGift = false;
+if(guestMember > 100){
+   if(comeWithGift === true){
+    console.log("Let's party all night.");
+   }else{
+    console.log("I wil party with myself");
+   }
+}
