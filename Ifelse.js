@@ -291,3 +291,41 @@ if(guestMember > 100){
     console.log("I wil party with myself");
    }
 }
+
+
+// Ternary Operator 
+
+// 1
+const cashback = 2500;
+ cashback >= 3000 ? console.log("Cash Back Pabi 500!") : console.log("Cash Back 0");
+
+ // 2
+ const Age = 16;
+ Age >= 15 ? console.log("You are Teenager!") : console.log("You are Child!");
+
+ // 3
+
+ const isLoggedIn = true;
+ isLoggedIn === true ? console.log("Welcome back!") : console.log("Please login!");
+
+ // 4
+
+ const tankFull = false;
+ tankFull === true ? console.log("Ready for a long drive!") : console.log("Fill the tank!");
+
+ // 5
+
+ const PassTheExam = false;
+
+ PassTheExam === true ? console.log("Party Time") : console.log("Next Semester e serious study korbo");
+
+ // 6
+
+ const sunny = true;
+
+ sunny === true ? console.log("Go Outside") : console.log("Stay Home");
+
+ // 7
+
+ const Expensive = false;
+ Expensive === true ? console.log("I Can't Buy This product") : console.log("I will buy this item");
