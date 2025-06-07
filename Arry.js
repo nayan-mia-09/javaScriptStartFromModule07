@@ -102,3 +102,41 @@ console.log(EvenNum);
 const Book = ["Atomic Habits", "Deep Work", "Recharge Your Down Battary", "Tukunjil", "Bela Furabar Age"];
 Book.shift();
 console.log(Book);
+
+//1
+
+const fruitsArry = ["Apple", "Banana","Mango", "Lichi"];
+if(fruitsArry.includes("Mango")){
+    console.log("Mango Ache");
+}else{
+    console.log("Mango Nai!");
+}
+
+//2
+
+const manName = ["Babul", "Alif", "Choton"];
+console.log(manName.indexOf("Babul"));
+
+//3
+
+const friendsList = ["Rimon", "Rifat", "Rajib"];
+console.log(friendsList.indexOf("Rifat"));
+
+//4
+
+const CityNames = ["Dhaka", "Chittagong", "Sylhet","rajshahi"]
+console.log(CityNames.indexOf("Rajshahi"));
+
+//5
+
+const Arry = ["Megh", "Dighi", "Bisti", "Borsha"];
+if(Arry.includes("Bisti")){
+    console.log("I need umberalla");
+}else{
+    console.log("No Rain No Pain");
+}
+
+//6
+
+const favGame = ["Football", "Cricket", "Vollyball",];
+console.log(favGame.includes("Badminton"));
