@@ -72,3 +72,33 @@ console.log(dreamCountry[4]);
 // 07 
 const onTheTable = ["Books", "Pen", "Nail Cutter", "Monitor", "CPU", "Speaker", "Headphone", "Sticy Note"];
 console.log(onTheTable[7]);
+
+
+// 001
+const NumArry = [10,20,30,40,50];
+
+NumArry.push(60);
+console.log(NumArry);
+
+// 002
+const NameArry = ["Sojib", "Sagor", "Sakib", "Sohel"];
+
+NameArry.push("Sumon");
+console.log(NameArry);
+
+// 003
+const Game = ["Free Fire", "PUBG", "Candy Crush"];
+
+Game.pop()
+console.log(Game);
+
+// 004
+const EvenNum = [24,36,48,60];
+
+EvenNum.unshift(12);
+console.log(EvenNum);
+
+// 005
+const Book = ["Atomic Habits", "Deep Work", "Recharge Your Down Battary", "Tukunjil", "Bela Furabar Age"];
+Book.shift();
+console.log(Book);
