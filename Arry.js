@@ -36,3 +36,39 @@ console.log(colors.length);
 
 const cityName = ["Dhaka", "Delhi", "Riyad", "Kualalampur","Madrid","Zurich"];
 console.log(cityName.length);
+
+
+// 01
+const friendsName = ["Omor", "Sakil", "Faijul", "Sumon", "Siam", "Parvej", "Masum"];
+console.log(friendsName[3]);
+
+// 02
+const favBooks = ["Atomic Habits", "Deep Work", "Emotional Inteligent",
+     "The Power Of Descipline", "Marhaba JavaScript a Maro Thaba", "Bela Furabar Age",
+      "English Memory", 
+    ]
+console.log(favBooks[5]);
+
+// 03
+const number = [1,2,3,4,5,6,7,8,9,10];
+
+number[7] = 30;
+console.log(number);
+
+// 04
+const game = ["Free Fire", "PUBG", "Candy Crush", "Temple Run"];
+
+game[2] = "Subway Surfer";
+console.log(game);
+
+// 05
+const familyMembers = ["Md Nur Islam", "Nurjahan Begum", "Munni", "Nayan"];
+console.log(familyMembers[3]);
+
+// 06
+const dreamCountry = ["Switzerland", "Norway", "Denmark", "Sewden", "Spain","UK","USA"];
+console.log(dreamCountry[4]);
+
+// 07 
+const onTheTable = ["Books", "Pen", "Nail Cutter", "Monitor", "CPU", "Speaker", "Headphone", "Sticy Note"];
+console.log(onTheTable[7]);
