@@ -76,3 +76,59 @@ while(x <= 111){
     console.log(x, "/", y, "=", x / y);
     x++
 }
+
+
+// Arithmatic Operation using while loop
+
+// 1
+let numbers = 50;
+while(numbers <= 100){
+    console.log(numbers);
+    numbers ++;
+}
+
+// 2
+let num1 =5;
+let sum = 0;
+
+while(num1 <= 15){
+    sum = sum + num1;
+    num1 ++;
+}
+console.log(sum);
+
+
+// 3
+let roll = 1;
+let rollSum = 0;
+
+while(roll <= 50){
+    rollSum = rollSum + roll;
+    roll ++;
+}
+console.log(rollSum);
+
+
+// 4
+
+let num3 = 21;
+let Sum3 = 0;
+
+while (num3 <= 50) {
+   
+   console.log(`Number: ${num3}, Current Sum: ${Sum3}`);
+   
+    Sum3 += num3;
+    num3++;
+}
+
+// 5
+
+let nums = 20;
+let total = 0;
+
+while(nums <= 40){
+    total = total + nums;
+    nums ++
+}
+  console.log(total);
