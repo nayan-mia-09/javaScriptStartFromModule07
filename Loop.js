@@ -32,3 +32,47 @@ const examDate = ["Dec 31", "Jan 2", "Jan 5", "Jan 10", "Jan 13", "Jan 17", "Jan
 for(const date of examDate){
     console.log(date);
 }
+
+// While Loop
+
+// 1
+let num = 0;
+
+while(num <= 10){
+    console.log("ami protidin 3 ghonta code practice korbo");
+    num ++;
+}
+
+// 2
+
+let NUM = 1;
+while(NUM <= 20){
+    console.log(NUM);
+    NUM ++;
+}
+
+// 3
+
+let number = 50;
+while(number <= 100){
+    console.log(number);
+    number++;
+}
+
+// 4
+
+let a = 1;
+let b = 3;
+while(a <= 10){
+    console.log(b, "x", a , "=", b * a);
+    a ++;
+}
+
+// 5
+
+let x = 101;
+let y = 2;
+while(x <= 111){
+    console.log(x, "/", y, "=", x / y);
+    x++
+}
