@@ -132,3 +132,30 @@ while(nums <= 40){
     nums ++
 }
   console.log(total);
+
+
+  // For Loop
+
+  // 1
+
+  for(let i = 150; i <= 170; i ++){
+    console.log(i);
+  }
+
+  // 2
+
+  let rolSum = 0;
+  for(let roll = 31; roll <= 58; roll ++){
+
+    rolSum= rolSum + roll;
+  }
+  console.log(rolSum);
+
+
+  // 3
+  let SumforLoop = 0;
+  for(let numb = 25; numb <= 75; numb ++){
+    SumforLoop = SumforLoop + numb;
+
+  }
+  console.log(SumforLoop);
